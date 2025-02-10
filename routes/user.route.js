@@ -10,7 +10,7 @@ route.get("/users", getusers)
 route.post("/create-user", createUser)
 route.post("/update-user/:id",updateUser)
 route.post("/delete-user/:id",deleteUser)
-route.post("/find-user/:id",findUserById)
+route.post("/users/:id",findUserById)
 
 
 module.exports = {route}
